@@ -26,7 +26,7 @@ class ActionsRepository @Inject constructor(
 ) : BaseRepository<ActionResponse> {
 
     /**
-     * Attempt to fetch actions from: cache -> remote
+     * Attempt to fetch actions from: cache -> remote -> assets
      */
     override suspend fun fetchAll(): Flow<ResultState<ActionResponse>?> {
         return flow {
