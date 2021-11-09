@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ActionsFun</string>
+    <string name="clickme">CLICK ME</string>
+    <string name="notification_channel_id">FirstChannel</string>
+    <string name="action_notification_string">Action Notification!</string>
+</resources>
